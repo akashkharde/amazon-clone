@@ -1,0 +1,74 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    background-color: white;
+    
+
+}
+.login_logo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    object-fit: contain;
+    margin-right: auto;
+    margin-left: auto;
+    height: 70px;
+}
+.login_con{
+    width: 300px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    padding: 20px;
+}
+
+.login_con > h1 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.login_con > form >h5 {
+    margin-bottom: 5px;
+}
+.login_con >form > input {
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 98%;
+}
+.login_con > p {
+    margin-top: 10px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.loginsignbtn {
+    background-color: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    border-color: #f88734 #9c7e31 #846a29;
+    color: black;
+    font-size: larger;
+    font-weight: 550;
+}
+
+.createAccountBtn{
+    background-color: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    border-color: #f88734 #9c7e31 #846a29;
+    color: black;
+    font-size: larger;
+    font-weight: 550;
+}
+.createAccountBtn:hover {
+    cursor: pointer;
+}
+.loginsignbtn:hover {
+    cursor: pointer;
+}

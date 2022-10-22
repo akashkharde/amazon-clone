@@ -1,0 +1,41 @@
+.cheakout {
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.cheakout_left {
+    flex: 0.7;
+    background-color: white;
+}
+.cheakout_title  {
+    font-size: 26px;
+    font-weight: 530;
+    margin-bottom:15px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cheakOut_price { 
+    font-size: 13px;
+    text-align: right;
+    padding-right: 60px;
+    
+}
+
+
+.cheakout_left > hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 5px 5px -5px rgba(0, 0, 0, 0.5);
+    margin-top: 0px;
+}
+
+
+
+.cheakout_right {
+    flex: 0.3;
+    background-color: white;
+    margin-left: 20px;
+}

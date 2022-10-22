@@ -1,0 +1,31 @@
+.CheakOutProduct_main {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom:20px ;
+    align-items: center;
+    
+}
+.CheakOutProduct_info{
+    padding-left: 20px; 
+}
+.CheakOutProduct_info > button {
+    background-color: #f0c14b;
+    border-radius: 2px;
+    height: 20px;
+    border: 1px solid;
+    border-color: #f88734 #9c7e31 #846a29;
+    color: black;
+    border-radius: 3px;
+}
+.CheakOutProduct_rating {
+    display: flex;
+}
+
+.CheakOutProduct_img{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+
+
+
+}
